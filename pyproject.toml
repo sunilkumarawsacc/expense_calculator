@@ -1,0 +1,19 @@
+[project]
+name = "remote-expense-tracker-mcp-server-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sunil Kumar", email = "aws.acc1010@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=4.0.10",
+]
+
+[project.scripts]
+remote-expense-tracker-mcp-server-main = "remote_expense_tracker_mcp_server_main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
